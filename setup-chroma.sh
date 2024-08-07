@@ -35,7 +35,7 @@ mv "$TEMP_FILE" "$FILE"
 echo "Lines added successfully."
 
 # Define the path to the YAML file
-yaml_file="/home/cdsw/.local/lib/python3.10/site-packages/chromadb/log_config.yml"
+yaml_file="/home/cdsw/.local/lib/python3.11/site-packages/chromadb/log_config.yml"
 
 # Use sed to find the pattern and replace the line
 # This command looks for a line containing 'uvicorn:' followed by any number of spaces and 'level: INFO'
