@@ -15,7 +15,7 @@ def read_config(file_path):
     return config['DEFAULT']
 
 # Read configuration from the config.ini file
-config_file_path = os.path.join(os.path.dirname(__file__), 'config.ini')
+config_file_path = os.path.join('/home/cdsw/colab-opensource-llms/config.ini')
 config = read_config(config_file_path)
 
 # Retrieve configuration variables
